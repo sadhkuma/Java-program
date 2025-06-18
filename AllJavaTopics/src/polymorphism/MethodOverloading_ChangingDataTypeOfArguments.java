@@ -1,0 +1,20 @@
+package polymorphism;
+
+public class MethodOverloading_ChangingDataTypeOfArguments {
+
+    static int add(int a, int b) {
+        return a + b;
+    }
+
+    static double add(double a, double b) {
+        return a + b;
+    }
+
+
+
+    public static void main(String[] args) {
+
+        System.out.println(MethodOverloading_ChangingDataTypeOfArguments.add(11, 11));
+        System.out.println(MethodOverloading_ChangingDataTypeOfArguments.add(12.6, 11.5));
+    }
+}
